@@ -7,7 +7,7 @@ on:
 
 defaults:
   run:
-    working-directory: 'Tinyblargon.cpu_scaling_governor'
+    working-directory: 'simoncaron.cpu_scaling_governor'
 
 jobs:
 
@@ -18,7 +18,7 @@ jobs:
       - name: Check out the codebase.
         uses: actions/checkout@v2
         with:
-          path: 'Tinyblargon.cpu_scaling_governor'
+          path: 'simoncaron.cpu_scaling_governor'
 
       - name: Set up Python 3.
         uses: actions/setup-python@v2
